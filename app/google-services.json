@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "633193064512",
+    "project_id": "facedetection-2c4f9",
+    "storage_bucket": "facedetection-2c4f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633193064512:android:fdfb4d6f557471695517a5",
+        "android_client_info": {
+          "package_name": "com.asgar72.facedetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633193064512-11t9fqsibl2bnqb1l1f5q116rl1atqr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT6pJy6K6ojXJGD6B3F8baAvWP4_dbFtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633193064512-11t9fqsibl2bnqb1l1f5q116rl1atqr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

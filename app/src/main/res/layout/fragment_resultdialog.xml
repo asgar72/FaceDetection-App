@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/face" />
+            <!--text view to display the result text
+                        after reading an image-->
+            <TextView
+                android:id="@+id/result_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="LCOFaceDetection"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <!--a button with text 'ok' written on it-->
+            <Button
+                android:id="@+id/result_ok_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/result_text_view"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="#75DA8B"
+                android:padding="10dp"
+                android:text="ok"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/result_text_view" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
