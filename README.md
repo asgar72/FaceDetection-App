@@ -1,5 +1,5 @@
 # FaceDetection-App
-This is face detection android app
+This is Face detection app created by android, Java, firebase, MT kit
 
 # Screenshot
 <p align="center">
