@@ -1,5 +1,7 @@
 # FaceDetection-App
-This is Face detection app created by android, Java, firebase, MT kit
+This is Face detection app created by android, Java, firebase, MT kit..
+
+The Face Detection App, developed using Android, Java, Firebase, and the MT Kit, is a powerful and user-friendly application designed to detect and analyze faces in real-time using the device's camera or images from the gallery.
 
 # Screenshot
 <p align="center">
